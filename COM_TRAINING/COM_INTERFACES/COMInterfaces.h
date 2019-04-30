@@ -12,7 +12,8 @@ A classic example of this technology is an MS-Word document containing an embedd
 
 Active X is the current blanket name for any COM-based technology
 *********************************************************************************************************/
-/*------------------------------------------------------------------------------------------------------*/
+
+
 /*************************************** INTERFACES *****************************************************
                                 
 COM is all about interfaces - the only way in which clients and servers can communicate is through the 
@@ -34,4 +35,8 @@ interface IDraw : public IUnknown
 class CoHexagon : public IDraw {
 public:
 	HRESULT _stdcall QueryInterface(REFIID riid, void ** ppv);
+	ULONG   _stdcall AddRef();
+	ULONG   _stdcall Release();
+	// IDraw
+	void Draw();
 };

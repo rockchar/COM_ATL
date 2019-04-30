@@ -32,7 +32,16 @@
 *.app
 
 # compiled source #
-*.opensdf,*.sdf,*.suo,*.exe,*.ilk,*.pdb,*.obj,*.pch,*.idb,*.filters
+*.opensdf
+*.sdf
+*.suo
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.pch
+*.idb
+*.filters
 *.user
 *.ilk
 *.exe

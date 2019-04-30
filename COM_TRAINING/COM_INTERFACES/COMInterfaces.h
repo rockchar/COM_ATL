@@ -1,6 +1,6 @@
 #pragma once
 #include <Windows.h>
-/*******************************************************************************************************
+/**************************************  DESCRIPTION ****************************************************
 COM,OLE and ACTIVEX Relationship:
 COM is the backbone of all the OLE technologies.OLE 1.0 was a 16-Bit technology that appeared around 1991.
 It enabled software applications to share information through linking and embedding. Certain applications 

@@ -18,4 +18,5 @@ ULONG CoHexagon::Release()
 
 void CoHexagon::Draw()
 {
+
 }
